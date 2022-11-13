@@ -1,0 +1,7 @@
+Lists of tasks to complete
+1) Global styles
+2) CSS normalize
+- variable colours
+- how to trigger TS prop errors?? w/ styled-components and react (components too)
+3) Create header
+4) import images (Do I need a server for that?)
