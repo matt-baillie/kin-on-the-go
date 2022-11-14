@@ -1,5 +1,6 @@
 Lists of tasks to complete
-1) Global styles
+1) Start designing in mobile first*** 
+- Global styles
 2) CSS normalize
 - variable colours
 - how to trigger TS prop errors?? w/ styled-components and react (components too)
