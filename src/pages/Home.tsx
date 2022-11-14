@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "../components/Container.styled";
+import Hero from "../components/Hero/Hero";
 
 const Home = () => {
   return (
-    <Container>
-      <section>Hero</section>
+    <>
+      <Hero />
       <section>Here to help</section>
       <section>Guarentee</section>
       <section>About KOTG</section>
@@ -14,7 +14,7 @@ const Home = () => {
       <section>Steps</section>
       <section>Why KOTG?</section>
       <section>CTA</section>
-    </Container>
+    </>
   );
 };
 

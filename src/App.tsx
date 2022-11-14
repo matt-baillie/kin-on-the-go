@@ -6,12 +6,14 @@ import Contact from "./pages/Contact";
 import OurStory from "./pages/OurStory";
 import ICBCActive from "./pages/ICBCActive";
 import Testimonials from "./pages/Testimonials";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
 import Footer from "./components/Footer";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
     <div>
+      <GlobalStyle />
       <BrowserRouter>
         <Header />
         <Routes>

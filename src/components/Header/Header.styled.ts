@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../globalStyles";
 
 export const StyledHeader = styled.header`
   background-color: #fbf;
@@ -21,5 +22,9 @@ export const StyledHeader = styled.header`
     border-radius: 10px;
     border: none;
     padding: 1rem 2rem;
+  }
+  @media ${device.mobileL} {
+  }
+  @media ${device.laptop} {
   }
 `;

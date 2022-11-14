@@ -1,5 +1,7 @@
 Lists of tasks to complete
-- Start designing in mobile first*** 
+- Start designing in mobile first***
+- Create Logo component
+- Create basic Hero component 
 - Add proper image sizes and upload those
 - Global styles
 - CSS normalize

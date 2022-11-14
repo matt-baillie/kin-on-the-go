@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { StyledHeader } from "./styles/Header.styled";
+import { StyledHeader } from "./Header.styled";
+import Logo from "../Logo/Logo";
 
 export const Header = () => {
   return (
     <StyledHeader>
       <Link to="/">
-        <div>Logo</div>
+        <Logo></Logo>
       </Link>
       <nav>
         <Link to="/our-story">Our Story</Link>
