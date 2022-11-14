@@ -5,7 +5,9 @@ import { StyledHeader } from "./styles/Header.styled";
 export const Header = () => {
   return (
     <StyledHeader>
-      <div>Logo</div>
+      <Link to="/">
+        <div>Logo</div>
+      </Link>
       <nav>
         <Link to="/our-story">Our Story</Link>
         <Link to="/active-rehabilitation">Active Rehabilitation</Link>

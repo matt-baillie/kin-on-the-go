@@ -1,8 +1,11 @@
 Lists of tasks to complete
-1) Start designing in mobile first*** 
+- Start designing in mobile first*** 
+- Add proper image sizes and upload those
 - Global styles
-2) CSS normalize
+- CSS normalize
 - variable colours
 - how to trigger TS prop errors?? w/ styled-components and react (components too)
-3) Create header
-4) import images (Do I need a server for that?)
+- Create header
+- Create Footer
+- Create CTA
+- import images (Do I need a server for that?)

@@ -7,10 +7,11 @@ import OurStory from "./pages/OurStory";
 import ICBCActive from "./pages/ICBCActive";
 import Testimonials from "./pages/Testimonials";
 import { Header } from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
