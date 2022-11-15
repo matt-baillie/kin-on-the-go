@@ -1,14 +1,23 @@
 import styled from "styled-components";
-import kneeFlexion from "../../assets/kin-lying-knee-flexion.jpg";
+import { device } from "../../globalStyles";
 
 interface Props {
   backgroundImage: string;
 }
 export const HeroStyled = styled.section<Props>`
-  min-height: 80vh;
+  min-height: 60vh;
   width: 100%;
-  /* background-image: url(${kneeFlexion}); */
+  padding: 0.5rem;
   background-size: cover;
-  /* background-image: url(${require("../../assets/kin-lying-knee-flexion.jpg")}); */
+  background-position: 50% 50%;
   background-image: ${(Props) => Props.backgroundImage};
+  display: flex;
+  align-items: center;
+
+  h1 {
+    color: ${({ theme }) => theme.colors.primary};
+  }
+  @media ${device.tablet} {
+    min-height: 60vh;
+  }
 `;

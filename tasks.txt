@@ -1,12 +1,14 @@
 Lists of tasks to complete
 - Style Header & pop-up menu; 
+    - menu toggle still wonky; useHistory hook to check if the path has changed, if it has then hide menu
     - Create Logo component adjust size using media queries
 
 
 - Start designing in mobile first***
 - themeProvider with colours, other variables?
 - Create basic Hero component
-    -
+    - Allow Hero to take in a prop from parent page
+    - currently take it into styled component; prop must be brought up one level
 
 - Add proper image sizes and upload those
 - Global styles

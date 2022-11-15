@@ -22,10 +22,13 @@ export const device = {
 };
 
 const GlobalStyle = createGlobalStyle`
+    *{
+      box-sizing: border-box;
+    }
     body {
+      overflow: hidden;
         margin: 0;
         padding: 0; 
-        box-sizing: border-box;
         background-color: teal;
     }
 `;

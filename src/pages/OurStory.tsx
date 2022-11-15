@@ -1,7 +1,14 @@
 import React from "react";
+import Hero from "../components/Hero/Hero";
+import shoulderRaise from "../assets/shoulder-raise.jpg";
 
 const OurStory = () => {
-  return <div>Our Story</div>;
+  return (
+    <>
+      <Hero backgroundImage={`url(${shoulderRaise})`} title="Our Story" />
+      <div>Our Story</div>
+    </>
+  );
 };
 
 export default OurStory;

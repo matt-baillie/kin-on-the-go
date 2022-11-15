@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const StyledHeader = styled.header`
   background-color: #ddd;
-  padding: 1.5rem 0.5rem;
+  padding: 1rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -37,6 +37,7 @@ export const MenuStyled = styled.nav<Props>`
     text-align: center;
     padding: 1rem 0;
     box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
 
     @media ${device.tablet} {
       display: flex;
