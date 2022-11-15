@@ -9,10 +9,18 @@ import Testimonials from "./pages/Testimonials";
 import { Header } from "./components/Header/Header";
 import Footer from "./components/Footer";
 import GlobalStyle from "./globalStyles";
+import { ThemeProvider } from "styled-components";
+
+const theme = {
+  colors: {
+    primary: "#8A358A",
+    secondary: "#FFAC53",
+  },
+};
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <BrowserRouter>
         <Header />
@@ -26,7 +34,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </ThemeProvider>
   );
 }
 

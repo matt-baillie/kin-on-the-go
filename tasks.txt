@@ -1,5 +1,6 @@
 Lists of tasks to complete
 - Start designing in mobile first***
+- themeProvider with colours, other variables?
 - Create Logo component
 - Create basic Hero component 
 - Add proper image sizes and upload those
