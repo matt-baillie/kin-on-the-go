@@ -7,7 +7,7 @@ import OurStory from "./pages/OurStory";
 import ICBCActive from "./pages/ICBCActive";
 import Testimonials from "./pages/Testimonials";
 import { Header } from "./components/Header/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import GlobalStyle from "./globalStyles";
 import { ThemeProvider } from "styled-components";
 

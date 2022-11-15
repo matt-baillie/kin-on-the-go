@@ -26,10 +26,16 @@ const GlobalStyle = createGlobalStyle`
       box-sizing: border-box;
     }
     body {
-      overflow: hidden;
+      overflow-x: hidden;
         margin: 0;
         padding: 0; 
         background-color: teal;
+    }
+    ul {
+    padding-inline-start: 0;
+    }
+    li {
+      list-style-type: none;
     }
 `;
 export default GlobalStyle;

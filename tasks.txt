@@ -4,20 +4,25 @@ Lists of tasks to complete
     - Create Logo component adjust size using media queries
 
 
-- Start designing in mobile first***
-- themeProvider with colours, other variables?
 - Create basic Hero component
-    - Allow Hero to take in a prop from parent page
-    - currently take it into styled component; prop must be brought up one level
+    - Add to Hero each page; with appropriate props
+- Footer:
+    - add Social icons for Facebook and Insta
+    - Add Google maps api 
+    - Build sub-footer
 
-- Add proper image sizes and upload those
-- Global styles
-- CSS normalize
+- CSS normalize??
 - variable colours
 - how to trigger TS prop errors?? w/ styled-components and react (components too)
-- Create header
-- Create Footer
-- Create CTA
+
+Generic To Do (Dont delete)
+- ThemeProvider with colours, other variables?
+- Global styles
+- Start designing in mobile first***
+- Create Header component
+- Create Hero component
+- Create Footer component
+- Create CTA component
 - import images (Do I need a server for that?)
 
 Resources:
