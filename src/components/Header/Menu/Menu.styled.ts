@@ -13,7 +13,7 @@ export const MenuStyled = styled.nav<Props>`
     color: ${({ theme }) => theme.colors.primary};
 
     @media ${device.tablet} {
-      padding: 0 1rem;
+      padding: 0 0.5rem;
     }
   }
   @media ${device.tablet} {
@@ -41,6 +41,9 @@ export const MenuStyled = styled.nav<Props>`
     @media ${device.tablet} {
       display: flex;
       flex-direction: row;
+      position: static;
+      opacity: 1;
+      box-shadow: none;
     }
   }
   li {

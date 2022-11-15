@@ -1,10 +1,13 @@
 Lists of tasks to complete
 - Style Header & pop-up menu; 
+    - Create Logo component adjust size using media queries
+
 
 - Start designing in mobile first***
 - themeProvider with colours, other variables?
-- Create Logo component
-- Create basic Hero component 
+- Create basic Hero component
+    -
+
 - Add proper image sizes and upload those
 - Global styles
 - CSS normalize
@@ -14,3 +17,22 @@ Lists of tasks to complete
 - Create Footer
 - Create CTA
 - import images (Do I need a server for that?)
+
+Resources:
+Styled-components w/ Typescript: 
+-https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/
+- https://blog.devgenius.io/using-styled-components-and-props-with-typescript-react-a3c32a496f47
+
+Passing props in React using Typescript: https://dev.to/mconner89/passing-props-in-react-using-typescript-20lm
+
+
+Passing functions as props - https://bobbyhadz.com/blog/react-typescript-pass-function-as-prop
+
+Misc
+How to implement Hamburger Menu in React: https://ibaslogic.com/how-to-add-hamburger-menu-in-react/
+
+Styled-components: https://styled-components.com/docs/basics#passed-props
+
+React-icons with styled component: https://dev.to/ebereplenty/react-icons-tutorial-all-you-need-to-know-524
+
+React & styled-components - Importing images as bkg: https://stackoverflow.com/questions/41346413/react-js-styled-components-importing-images-and-using-them-as-div-background
