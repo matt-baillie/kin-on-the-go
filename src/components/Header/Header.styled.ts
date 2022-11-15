@@ -3,8 +3,8 @@ import { device } from "../../globalStyles";
 import { Link } from "react-router-dom";
 
 export const StyledHeader = styled.header`
-  background-color: #fbf;
-  padding: 2rem 0.5rem;
+  background-color: #ddd;
+  padding: 1.5rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

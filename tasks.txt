@@ -1,4 +1,6 @@
 Lists of tasks to complete
+- Style Header & pop-up menu; 
+
 - Start designing in mobile first***
 - themeProvider with colours, other variables?
 - Create Logo component

@@ -5,15 +5,18 @@ import Logo from "../Logo/Logo";
 import Menu from "./Menu/Menu";
 
 export const Header = () => {
+  // Commented out menuOpen and setMenuOpen should be passed down to Menu
+  // From Menu menuOpen > to MenuStyled
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <StyledHeader>
-      <Link to="/">
+      <Link to="/" onClick={() => setMenuOpen(!menuOpen)}>
         <Logo></Logo>
       </Link>
 
-      <Menu />
+      <Menu displayMenu={menuOpen} setDisplayMenu={setMenuOpen} />
 
-      <button>Book Now!</button>
+      <button onClick={() => setMenuOpen(!menuOpen)}>Book Now!</button>
     </StyledHeader>
   );
 };
