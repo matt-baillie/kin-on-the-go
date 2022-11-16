@@ -3,6 +3,9 @@ Lists of tasks to complete
     - menu toggle still wonky; useHistory hook to check if the path has changed, if it has then hide menu
     - Create Logo component adjust size using media queries
 
+- Page Content:
+    - Wireframe each page's sections with just a section and h2, maybe some padding.
+
 - Footer:
     - add Social icons for Facebook and Insta
     - Add Google maps api 
@@ -34,6 +37,10 @@ Generic To Do (Dont delete)
 - import images (Do I need a server for that?)
 
 Resources:
+
+Functional Component with Children Types:
+https://dev.to/xenoxdev/usage-of-reactfc-from-my-experience-22n7
+
 Styled-components w/ Typescript: 
 -https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/
 - https://blog.devgenius.io/using-styled-components-and-props-with-typescript-react-a3c32a496f47
