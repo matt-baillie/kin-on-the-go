@@ -1,15 +1,18 @@
 Lists of tasks to complete
-- Style Header & pop-up menu; 
+- Header & dropdown menu; 
     - menu toggle still wonky; useHistory hook to check if the path has changed, if it has then hide menu
     - Create Logo component adjust size using media queries
 
-
-- Create basic Hero component
-    - Add to Hero each page; with appropriate props
 - Footer:
     - add Social icons for Facebook and Insta
     - Add Google maps api 
     - Build sub-footer
+- CTA:
+    - Create, add picture and button. 
+
+- Pop-up functionality:
+    - Create
+    - Add to Header & CTA buttons
 
 - CSS normalize??
 - variable colours
@@ -20,7 +23,8 @@ Generic To Do (Dont delete)
 - Global styles
 - Start designing in mobile first***
 - Create Header component
-- Create Hero component
+- Create basic Hero component
+    - Add to Hero each page; with appropriate props
 - Create Footer component
 - Create CTA component
 - import images (Do I need a server for that?)
