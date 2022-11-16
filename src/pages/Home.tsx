@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero/Hero";
 import kneeFlexion from "../assets/kin-lying-knee-flexion.jpg";
-// `url(${kneeFlexion})`
+import { CTA } from "../components/CTA/CTA";
 const Home = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Home = () => {
       <section>Pricing</section>
       <section>Steps</section>
       <section>Why KOTG?</section>
-      <section>CTA</section>
+      <CTA />
     </>
   );
 };

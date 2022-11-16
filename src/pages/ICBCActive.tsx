@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero/Hero";
 import pushUp from "../assets/kettlebell-pushup.jpg";
-import kneeFlexion from "../assets/kin-lying-knee-flexion.jpg";
+
+import { CTA } from "../components/CTA/CTA";
 
 const ICBCActive = () => {
   return (
@@ -10,6 +11,7 @@ const ICBCActive = () => {
         backgroundImage={`url(${pushUp})`}
         title="ICBC Active Rehabilitation"
       />
+      <CTA />
     </>
   );
 };
