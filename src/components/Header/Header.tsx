@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { StyledHeader } from "./Header.styled";
 import Logo from "../Logo/Logo";
 import Menu from "./Menu/Menu";
+import Button from "../Button/Button";
 
 export const Header = () => {
   // Commented out menuOpen and setMenuOpen should be passed down to Menu
@@ -16,7 +17,7 @@ export const Header = () => {
 
       <Menu displayMenu={menuOpen} setDisplayMenu={setMenuOpen} />
 
-      <button onClick={() => setMenuOpen(!menuOpen)}>Book Now!</button>
+      <Button text="Book Now!" />
     </StyledHeader>
   );
 };

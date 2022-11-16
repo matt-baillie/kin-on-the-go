@@ -10,6 +10,7 @@ const ActiveRehab = () => {
         backgroundImage={`url(${wallSquat})`}
         title="Active Rehabilitation"
       />
+
       <CTA />
     </>
   );

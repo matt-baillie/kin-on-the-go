@@ -13,8 +13,14 @@ import { ThemeProvider } from "styled-components";
 
 const theme = {
   colors: {
-    primary: "#8A358A",
-    secondary: "#FFAC53",
+    // Original Purple
+    // primary: "#8A358A",
+    primary: "#8A3579",
+    primaryDark: "#8A3538",
+    secondary: "#FFAC42",
+    //Original Yellow
+    // secondaryIsh: "#FFAC53",
+    secondaryDark: "#FFAC00",
   },
 };
 

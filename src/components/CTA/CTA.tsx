@@ -1,5 +1,6 @@
 import React from "react";
 import { CTAStyled } from "./CTA.styled";
+import Button from "../Button/Button";
 
 export const CTA = () => {
   return (
@@ -10,7 +11,7 @@ export const CTA = () => {
         today! Feel the benefits of active rehabilitation for yourself and
         return to the life you used to know.
       </p>
-      <button></button>
+      <Button text="Book Your Free Consultation" />
     </CTAStyled>
   );
 };

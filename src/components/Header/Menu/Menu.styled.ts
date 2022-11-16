@@ -8,9 +8,14 @@ interface Props {
   displayMenu: boolean;
 }
 export const MenuStyled = styled.nav<Props>`
+  /* position: relative; */
+
   a {
     text-decoration: none;
     color: ${({ theme }) => theme.colors.primary};
+    &:hover {
+      color: ${({ theme }) => theme.colors.primaryDark};
+    }
 
     @media ${device.tablet} {
       padding: 0 0.5rem;
@@ -22,14 +27,13 @@ export const MenuStyled = styled.nav<Props>`
   }
   ul {
     opacity: ${(props) => (props.displayMenu ? 1 : 0)};
-    /* display: ${(props) => (props.displayMenu ? "flex" : "none")}; */
-
     transition: opacity 1s, left 1s;
     /* transform: scaleY(${(props) => (props.displayMenu ? 1 : 0)}); */
 
     position: absolute;
 
     left: ${(props) => (props.displayMenu ? 0 : "-100%")};
+    top: 4rem;
     width: 100%;
     background-color: #ddd;
     flex-direction: column;

@@ -7,15 +7,18 @@ Lists of tasks to complete
     - add Social icons for Facebook and Insta
     - Add Google maps api 
     - Build sub-footer
+- Button component:
+    - make dynamic
 - CTA:
-    - Create, add picture and button. 
+    - Button component to be added
 
 - Pop-up functionality:
     - Create
     - Add to Header & CTA buttons
 
 - CSS normalize??
-- variable colours
+- Variable colours
+    - May need to change to different color type; more black is needed when hovering. It is darker but a diff colour. Colour shade generator??
 - how to trigger TS prop errors?? w/ styled-components and react (components too)
 
 Generic To Do (Dont delete)
@@ -26,7 +29,8 @@ Generic To Do (Dont delete)
 - Create basic Hero component
     - Add to Hero each page; with appropriate props
 - Create Footer component
-- Create CTA component
+- CTA:
+    - Create, add picture and button. 
 - import images (Do I need a server for that?)
 
 Resources:

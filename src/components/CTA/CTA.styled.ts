@@ -14,6 +14,7 @@ export const CTAStyled = styled.section`
   background-size: cover;
   background-position: 50% 50%;
   color: #fff;
+  /* z-index: -1; */
   h2 {
     z-index: 1;
   }
@@ -22,6 +23,7 @@ export const CTAStyled = styled.section`
   }
   &:after {
     content: "";
+    /* z-index: -1; */
     position: absolute;
     left: 0;
     right: 0;

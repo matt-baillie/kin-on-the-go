@@ -5,9 +5,8 @@ interface Props {
   backgroundImage: string;
 }
 export const HeroStyled = styled.section<Props>`
-  z-index: -1;
   position: relative;
-
+  z-index: -1;
   min-height: 60vh;
   width: 100%;
   padding: 1rem;
@@ -27,13 +26,14 @@ export const HeroStyled = styled.section<Props>`
   @media ${device.tablet} {
     min-height: 60vh;
   }
-  &:after {
+  &:before {
+    /* z-index: 1; */
     content: "";
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(225, 225, 225, 0.4);
   }
 `;
